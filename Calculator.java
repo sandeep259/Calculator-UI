@@ -114,7 +114,7 @@ public class Calculator extends JFrame implements ActionListener {
         }
     }
     
-    public void getPosNeg() {
+    public void getPosNeg(){
         try {
             double value = Double.parseDouble(display.getText());
             if(value != 0) {
